@@ -303,12 +303,10 @@ html, body {
 
 .footer {
     background-color: #FCF6EE;
-    padding: 60px 70px;
-    border-radius: 30px;
+    padding: 60px 0;
     margin-top: 80px;
-    margin-left: 70px;
-    margin-right: 70px;
-    margin-bottom: 40px;
+    width: 100%;
+    border-radius: 0;
 }
 
 .footer-container {
@@ -316,6 +314,7 @@ html, body {
     justify-content: space-between;
     max-width: 1784px;
     margin: 0 auto;
+    padding: 0 70px;
 }
 
 .footer-left {
