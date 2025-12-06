@@ -293,3 +293,80 @@ html, body {
     margin: 20px; /* Добавляем отступы сверху и снизу для линии */
 }
 
+
+
+
+
+
+
+
+
+.footer {
+    background-color: #FCF6EE;
+    padding: 60px 70px;
+    border-radius: 30px;
+    margin-top: 80px;
+    margin-left: 70px;
+    margin-right: 70px;
+    margin-bottom: 40px;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+    max-width: 1784px;
+    margin: 0 auto;
+}
+
+.footer-left {
+    flex: 1;
+    padding-right: 40px;
+}
+
+.footer-logo {
+    font-family: 'Poiret One', sans-serif;
+    font-size: 48px;
+    color: #633800;
+    margin-bottom: 20px;
+    font-weight: 700;
+}
+
+.footer-description {
+    font-family: 'Poiret One', sans-serif;
+    font-size: 28px;
+    color: #633800;
+    line-height: 1.4;
+    max-width: 600px;
+}
+
+.footer-right {
+    flex: 1;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.footer-links {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.footer-links li {
+    margin-bottom: 20px;
+}
+
+.footer-link {
+    font-family: 'Poiret One', sans-serif;
+    font-size: 36px;
+    color: #633800;
+    text-decoration: none;
+    transition: color 0.3s ease;
+    display: block;
+    padding: 5px 0;
+}
+
+.footer-link:hover {
+    color: #EBD3B7;
+    text-decoration: underline;
+}
+
